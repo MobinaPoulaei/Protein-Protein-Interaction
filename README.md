@@ -20,9 +20,9 @@ The GCN model is designed as follows:
 - **Output Layer**: A linear layer maps the learned representations to the output classes.
 
 # Training Process
-** Data Loading**: Training, validation, and test datasets are loaded and batched using PyTorch's DataLoader.
-** Loss Function**: The BCEWithLogitsLoss is used, with class weights to address class imbalance.
-** Optimizer**: The Adam optimizer is employed for model training.
+**Data Loading**: Training, validation, and test datasets are loaded and batched using PyTorch's DataLoader.
+**Loss Function**: The BCEWithLogitsLoss is used, with class weights to address class imbalance.
+**Optimizer**: The Adam optimizer is employed for model training.
 
 # Results
 - **Training and Validation Losses**: The training and validation losses are plotted to visualize the model's learning progress.
