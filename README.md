@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook for analyzing Protein-Protein Intera
 # Introduction
 Protein-Protein Interactions (PPIs) are fundamental to most biological processes. Understanding these interactions can lead to insights into cellular functions, the mechanisms of diseases, and the development of new therapeutic strategies. This notebook aims to analyze PPIs by leveraging various computational tools and datasets.
 
-#Notebook Overview
+# Notebook Overview
 The notebook is structured as follows:
 
 - **Data Preparation**: The notebook first loads and prepares the PPI dataset, splitting it into training, validation, and test sets.
