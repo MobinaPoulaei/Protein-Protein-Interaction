@@ -12,18 +12,17 @@ The notebook is structured as follows:
 - **Evaluation**: The model's performance is evaluated on the validation set during training, with the best model being saved for later testing.
 - **Testing**: The final model is tested on a separate test dataset, and key metrics such as accuracy and F1 scores are computed.
 
-# Model Architecture
+## Model Architecture
 The GCN model is designed as follows:
 
 - **Two GCN Layers**: The model consists of two Graph Convolutional layers (GCNConv) to capture the graph structure and interactions between nodes (proteins).
 - **Activation and Dropout**: ReLU activation functions and dropout layers are used to introduce non-linearity and prevent overfitting.
 - **Output Layer**: A linear layer maps the learned representations to the output classes.
 
-# Training Process
-**Data Loading**: Training, validation, and test datasets are loaded and batched using PyTorch's DataLoader.
-**Loss Function**: The BCEWithLogitsLoss is used, with class weights to address class imbalance.
-**Optimizer**: The Adam optimizer is employed for model training.
+## Learning Setup
+- **Loss Function**: The `BCEWithLogitsLoss` is used, with *class weights* to address class imbalance.
+- **Optimizer**: The `Adam` optimizer is employed for model training.
 
-# Results
+## Results
 - **Training and Validation Losses**: The training and validation losses are plotted to visualize the model's learning progress.
-- **Test Accuracy and F1 Scores**: The final model achieves 91% accuracy and 84% F1 scores on the test set.
+- **Test Accuracy and F1 Scores**: The final model achieves 91% `accuracy` and 84% `F1-score` on the test set.
