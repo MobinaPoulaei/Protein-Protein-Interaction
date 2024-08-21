@@ -15,8 +15,8 @@ The notebook is structured as follows:
 ## Model Architecture
 The GCN model is designed as follows:
 
-- **Two GCN Layers**: The model consists of two Graph Convolutional layers (GCNConv) to capture the graph structure and interactions between nodes (proteins).
-- **Activation and Dropout**: ReLU activation functions and dropout layers are used to introduce non-linearity and prevent overfitting.
+- **Two GCN Layers**: The model consists of two Graph Convolutional layers (`GCNConv`) to capture the graph structure and interactions between nodes (proteins).
+- **Activation and Dropout**: `ReLU` activation functions and dropout layers are used to introduce non-linearity and prevent overfitting.
 - **Output Layer**: A linear layer maps the learned representations to the output classes.
 
 ## Learning Setup
